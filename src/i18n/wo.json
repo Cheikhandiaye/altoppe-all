@@ -1,0 +1,82 @@
+{
+  "common": {
+    "appName": "AL-TOPPE",
+    "appTag": "Sénégal • SYSCOHADA",
+    "fcfa": "FCFA",
+    "save": "Denc",
+    "cancel": "Bàyyi",
+    "validate": "Werral",
+    "edit": "Soppi",
+    "delete": "Far",
+    "loading": "Mu ngi xaar…",
+    "error": "Am na njuumte",
+    "back": "Dellu",
+    "logout": "Génn"
+  },
+  "auth": {
+    "login": "Dugg",
+    "signup": "Ubbi kont",
+    "email": "Email",
+    "password": "Baatu kumpa",
+    "fullName": "Sa tur",
+    "phone": "Telefon",
+    "businessName": "Turu ja",
+    "region": "Réew",
+    "sector": "Liggéey",
+    "noAccount": "Amoo kont ?",
+    "hasAccount": "Am nga kont ?",
+    "google": "Jëfandikoo Google",
+    "or": "walla",
+    "signupCta": "Bind sa tur",
+    "loginCta": "Dugg",
+    "welcome": "Dalal ak diam",
+    "welcomeSub": "Tëj sa kont ci Wolof walla Faraas.",
+    "createAccount": "Ubbi sa kont jaaykat"
+  },
+  "pin": {
+    "title": "Kodu PIN",
+    "subtitleSet": "Tànn ñeenti chiffre ngir aar sa xaalis",
+    "subtitleVerify": "Dugal sa ñeenti chiffre",
+    "subtitleConfirm": "Dëggal sa kod",
+    "wrong": "Kod du dëgg",
+    "mismatch": "Kod yi du benn",
+    "setupSuccess": "Sa kod denc na"
+  },
+  "dashboard": {
+    "available": "Juru am",
+    "availableWo": "Juru am",
+    "reserve": "Réserve",
+    "health": "Wér",
+    "weather": "Asamaan u ja bi",
+    "weatherSunny": "Naaj",
+    "weatherCloudy": "Niir",
+    "weatherRainy": "Taw",
+    "pending": "Buy xaar werral",
+    "pendingEmpty": "Amul dara",
+    "weekChart": "Ayubés bi",
+    "monthChart": "Weer wi",
+    "dayChart": "Tey",
+    "voice": "Wax",
+    "voiceHint": "Beral te wax ci Wolof walla Faraas",
+    "newTransaction": "Bees"
+  },
+  "txn": {
+    "in": "Dugg",
+    "out": "Génn",
+    "amount": "Xaalis",
+    "label": "Lan la",
+    "thirdParty": "Klient / Fournisër",
+    "category": "Mboolo",
+    "personal": "Bopp",
+    "validated": "Werralu",
+    "draft": "Brouillon",
+    "sourceVoice": "Wax",
+    "sourceText": "SMS",
+    "sourceManual": "Loxo"
+  },
+  "roles": {
+    "entrepreneur": "Jaaykat",
+    "coach": "Jàngalekat",
+    "admin": "Admin"
+  }
+}

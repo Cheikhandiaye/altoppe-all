@@ -1,0 +1,82 @@
+{
+  "common": {
+    "appName": "AL-TOPPE",
+    "appTag": "Sénégal • SYSCOHADA",
+    "fcfa": "FCFA",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "validate": "Valider",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "loading": "Chargement…",
+    "error": "Une erreur est survenue",
+    "back": "Retour",
+    "logout": "Se déconnecter"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "signup": "Créer un compte",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "fullName": "Nom complet",
+    "phone": "Téléphone",
+    "businessName": "Nom du commerce",
+    "region": "Région",
+    "sector": "Secteur d'activité",
+    "noAccount": "Pas encore de compte ?",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "google": "Continuer avec Google",
+    "or": "ou",
+    "signupCta": "S'inscrire",
+    "loginCta": "Connexion",
+    "welcome": "Bienvenue",
+    "welcomeSub": "Tenez votre comptabilité en parlant Wolof ou Français.",
+    "createAccount": "Créer votre compte commerçant"
+  },
+  "pin": {
+    "title": "Code PIN",
+    "subtitleSet": "Choisissez un code à 4 chiffres pour protéger vos comptes",
+    "subtitleVerify": "Saisissez votre code à 4 chiffres",
+    "subtitleConfirm": "Confirmez votre code",
+    "wrong": "Code incorrect",
+    "mismatch": "Les codes ne correspondent pas",
+    "setupSuccess": "Code PIN enregistré"
+  },
+  "dashboard": {
+    "available": "Gain Disponible",
+    "availableWo": "Juru am",
+    "reserve": "Réserve",
+    "health": "Santé",
+    "weather": "Météo du commerce",
+    "weatherSunny": "Naaj / Ensoleillé",
+    "weatherCloudy": "Niir / Nuageux",
+    "weatherRainy": "Taw / Pluvieux",
+    "pending": "À valider",
+    "pendingEmpty": "Aucun brouillon pour le moment",
+    "weekChart": "Tendance de la semaine",
+    "monthChart": "Tendance du mois",
+    "dayChart": "Aujourd'hui",
+    "voice": "Saisie vocale",
+    "voiceHint": "Appuyez et parlez en Wolof ou Français",
+    "newTransaction": "Nouvelle transaction"
+  },
+  "txn": {
+    "in": "Recette",
+    "out": "Dépense",
+    "amount": "Montant",
+    "label": "Description",
+    "thirdParty": "Client / Fournisseur",
+    "category": "Catégorie",
+    "personal": "Dépense privée",
+    "validated": "Validé",
+    "draft": "Brouillon",
+    "sourceVoice": "Vocal",
+    "sourceText": "SMS",
+    "sourceManual": "Manuel"
+  },
+  "roles": {
+    "entrepreneur": "Entrepreneur",
+    "coach": "Coach",
+    "admin": "Admin"
+  }
+}

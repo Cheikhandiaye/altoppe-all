@@ -1,0 +1,52 @@
+{
+  "id": "/",
+  "name": "AL-TOPPE",
+  "short_name": "AL-TOPPE",
+  "description": "Gestion financière pour les TPE au Sénégal — saisie vocale en wolof et suivi par coach.",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#F4F1DE",
+  "theme_color": "#1B4332",
+  "lang": "fr-SN",
+  "dir": "ltr",
+  "categories": ["finance", "business", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "/icon-72.png", "sizes": "72x72", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-96.png", "sizes": "96x96", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-128.png", "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-144.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-152.png", "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-384.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-1024.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Saisie vocale",
+      "short_name": "Vocal",
+      "description": "Enregistrer une recette ou dépense à la voix",
+      "url": "/voice",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mes transactions",
+      "short_name": "Transactions",
+      "description": "Consulter toutes mes recettes et dépenses",
+      "url": "/transactions",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    { "src": "/screenshots/dashboard.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "Tableau de bord AL-TOPPE" },
+    { "src": "/screenshots/voice.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "Saisie vocale en wolof" },
+    { "src": "/screenshots/transactions.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "Suivi des transactions" },
+    { "src": "/screenshots/desktop.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide", "label": "AL-TOPPE Coach sur ordinateur" }
+  ]
+}

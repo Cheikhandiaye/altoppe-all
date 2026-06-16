@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "PACKAGE_NAME_A_REMPLACER",
+    "sha256_cert_fingerprints": [
+      "FINGERPRINT_A_REMPLACER_APRES_PWABUILDER"
+    ]
+  }
+}]
