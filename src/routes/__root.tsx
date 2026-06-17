@@ -8,6 +8,7 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 import { useEffect } from "react";
+import { useAppTheme } from "@/hooks/use-app-theme";
 
 import appCss from "../styles.css?url";
 import { Toaster } from "@/components/ui/sonner";
@@ -137,11 +138,17 @@ function RootComponent() {
   return (
     <QueryClientProvider client={queryClient}>
       <AuthSync />
+      <ThemeSync />
       <ServiceWorkerRegistrar />
       <Outlet />
       <Toaster />
     </QueryClientProvider>
   );
+}
+
+function ThemeSync() {
+  useAppTheme();
+  return null;
 }
 
 function AuthSync() {
@@ -156,3 +163,4 @@ function AuthSync() {
   }, [router, queryClient]);
   return null;
 }
+
