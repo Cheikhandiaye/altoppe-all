@@ -156,3 +156,22 @@
     font-feature-settings: "tnum";
   }
 }
+
+/* ========================== */
+/* MODE PROGRAMME — #4A1942   */
+/* ========================== */
+[data-mode='programme'] {
+  --brand-green: oklch(0.22 0.08 320);
+  --brand-green-soft: oklch(0.35 0.10 320);
+  --brand-ink: oklch(0.14 0.06 320);
+  --background: oklch(0.98 0.005 95);
+  --foreground: oklch(0.22 0.08 320);
+  --card-foreground: oklch(0.22 0.08 320);
+  --popover-foreground: oklch(0.22 0.08 320);
+  --primary: oklch(0.22 0.08 320);
+  --primary-foreground: oklch(0.98 0.005 95);
+  --secondary-foreground: oklch(0.22 0.08 320);
+  --muted-foreground: oklch(0.45 0.06 320);
+  --border: oklch(0.22 0.08 320 / 0.1);
+  --input: oklch(0.22 0.08 320 / 0.12);
+}
